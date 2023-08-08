@@ -31,7 +31,7 @@ const Page = () => {
           </div>
         </div>
         <div className="right">
-          <Image src={HomeCoverImg} width={250} height={100} />
+          <Image src={HomeCoverImg} width={250} height={100} alt="CoverImg" />
         </div>
       </div>
     </>

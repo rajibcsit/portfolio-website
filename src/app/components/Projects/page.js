@@ -87,7 +87,7 @@ const Page = () => {
                         prepare an invoice for the customer
                       </p>
                       <p>
-                        <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
+                        <span className="font-bold">Utilized:</span> PHP, Laravel, Nextjs.
                       </p>
                     </div>
                   </div>

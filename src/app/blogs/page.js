@@ -50,10 +50,10 @@ export default function Page() {
         </div>
         <div className="postsSection">
           <div className="posts">
-            <Card type={"post"} className="scale-95" postURL="/post/15792486" />
-            <Card type={"post"} className="scale-95" postURL="/post/15792486" />
-            <Card type={"post"} className="scale-95" postURL="/post/15792486" />
-            <Card type={"post"} className="scale-95" postURL="/post/15792486" />
+            <Card type={"post"} className="scale-95" postURL="/post/1" />
+            <Card type={"post"} className="scale-95" postURL="/post/2" />
+            <Card type={"post"} className="scale-95" postURL="/post/3" />
+            <Card type={"post"} className="scale-95" postURL="/post/4" />
             <div className="wrapper w-full flex justify-center">
               <button className="btn primaryBtn">Load More</button>
             </div>

@@ -21,6 +21,7 @@ import {
   TwitterIcon,
 } from "react-share";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
+import Image from "next/image";
 
 const socialShareOptions = [
   {
@@ -99,7 +100,7 @@ const Page = ({ params }) => {
           <div className="chip">Tailwind</div>
         </div> */}
         <div className="postImage">
-          <img
+          <Image
             src="https://i.pinimg.com/originals/a5/45/38/a54538be5aa14b5af9b6446aa5fd2f7a.jpg"
             alt="Post Image"
           />

@@ -102,13 +102,6 @@ const Page = () => {
             </div> */}
           </div>
           <div className="right">
-            <div className="title">Connect With Me</div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam esse ab nostrum
-              quidem molestias porro voluptate repudiandae cumque. Dolorum laudantium eos
-              necessitatibus blanditiis nam nobis?
-            </p>
-            <br />
             <h3 className="title">Here are some of my tools:</h3>
             <div className="keySkills">
               {keySkils.map((skill, index) => (
@@ -117,6 +110,7 @@ const Page = () => {
                 </div>
               ))}
             </div>
+            <div className="title">Connect With Me</div>
             <div className="socialLinks">
               {socialIcons.map((socialIcon, index) => (
                 <Link className="icon" target="_blank" key={index} href={socialIcon.href}>

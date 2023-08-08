@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { FaAngleRight } from "react-icons/fa6";
 
@@ -9,10 +10,11 @@ const Page = ({ type, className, postURL }) => {
       <>
         <div className="projectCard">
           <div className="cardImage">
-            <img
+            <Image
               src={
                 "https://portfolio-tailwind.preview.uideck.com/demos/personal/images/portfolio-01.jpg"
               }
+              alt="image"
             />
           </div>
           <div className="title">Startup landing page</div>
@@ -29,10 +31,11 @@ const Page = ({ type, className, postURL }) => {
         <div className={`postCard ${className}`}>
           <div className="cardImage">
             <Link href={postURL}>
-              <img
+              <Image
                 src={
                   "https://portfolio-tailwind.preview.uideck.com/demos/personal/images/news-1.jpg"
                 }
+                alt="img"
               />
             </Link>
           </div>
@@ -53,7 +56,7 @@ const Page = ({ type, className, postURL }) => {
 };
 
 Page.defaultProps = {
-  postURL: "post/",
+  postURL: "post/id",
 };
 
 export default Page;
