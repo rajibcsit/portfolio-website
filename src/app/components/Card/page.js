@@ -2,6 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaAngleRight } from "react-icons/fa6";
+import blogImg from "/public/blog-image/blog.jpg";
+import blogImg1 from "/public/blog-image/blog.jpg";
 
 const Page = ({ type, className, postURL }) => {
   console.log(postURL);
@@ -10,12 +12,7 @@ const Page = ({ type, className, postURL }) => {
       <>
         <div className="projectCard">
           <div className="cardImage">
-            <Image
-              src={
-                "https://portfolio-tailwind.preview.uideck.com/demos/personal/images/portfolio-01.jpg"
-              }
-              alt="image"
-            />
+            <Image src={blogImg} alt="image" />
           </div>
           <div className="title">Startup landing page</div>
           <div className="desc">
@@ -31,12 +28,7 @@ const Page = ({ type, className, postURL }) => {
         <div className={`postCard ${className}`}>
           <div className="cardImage">
             <Link href={postURL}>
-              <Image
-                src={
-                  "https://portfolio-tailwind.preview.uideck.com/demos/personal/images/news-1.jpg"
-                }
-                alt="img"
-              />
+              <Image src={blogImg1} alt="image" />
             </Link>
           </div>
           <Link href={postURL}>

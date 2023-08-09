@@ -2,6 +2,7 @@
 import React from "react";
 import Card from "@/app/components/Card/page";
 import ScrollToTop from "@/app/components/ScrollToTop/page";
+import postImage from "/public/blog-image/post.jpg";
 import {
   EmailShareButton,
   FacebookShareButton,
@@ -100,10 +101,7 @@ const Page = ({ params }) => {
           <div className="chip">Tailwind</div>
         </div> */}
         <div className="postImage">
-          <Image
-            src="https://i.pinimg.com/originals/a5/45/38/a54538be5aa14b5af9b6446aa5fd2f7a.jpg"
-            alt="Post Image"
-          />
+          <Image src={postImage} alt="post iamge" />
         </div>
         <div className="postContent">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, architecto consequuntur
@@ -161,9 +159,9 @@ const Page = ({ params }) => {
         <div className="relatedPost">
           <p>You Might Like these:</p>
           <div className="postWrapper">
-            <Card type={"post"} postURL={"/#"} />
-            <Card type={"post"} postURL={"/#"} />
-            <Card type={"post"} postURL={"/#"} />
+            <Card type={"post"} postURL={"/post/1"} />
+            <Card type={"post"} postURL={"/post/2"} />
+            <Card type={"post"} postURL={"/post/3"} />
           </div>
           <hr />
         </div>

@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import projectImage from "/public/project1.png";
+import projectImage from "/public/project-image/project1.png";
 // import Card from "@/app/components/Card/page";
 
 const Page = () => {
@@ -31,10 +31,10 @@ const Page = () => {
                         </h4>
                       </div>
                       <p className="text-sm sm:text-sm mb-3">
-                        The point of sale (POS) or point of purchase (POP) is the time and place at
-                        which a retail transaction is completed. At the point of sale, the merchant
-                        calculates the amount owed by the customer, indicates that amount, may
-                        prepare an invoice for the customer
+                        Inventory management, a critical element of the supply chain, is the
+                        tracking of inventory from manufacturers to warehouses and from these
+                        facilities to a point of sale. The goal of inventory management is to have
+                        the right products in the right place at the right time.
                       </p>
                       <p>
                         <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
@@ -56,10 +56,12 @@ const Page = () => {
                         </h4>
                       </div>
                       <p className="text-sm sm:text-sm mb-3">
-                        The point of sale (POS) or point of purchase (POP) is the time and place at
-                        which a retail transaction is completed. At the point of sale, the merchant
-                        calculates the amount owed by the customer, indicates that amount, may
-                        prepare an invoice for the customer
+                        Blogen is an advanced AI writing assistant built to help businesses create
+                        content that is readable, SEO-friendly, and engaging. With just one click,
+                        this intelligent AI tool generates unique content up to 10 times faster than
+                        any other traditional method. Whether it’s an informational article or even
+                        a listing article, Blogen makes it easier and more effective. You can create
+                        a how-to article in just a minute.
                       </p>
                       <p>
                         <span className="font-bold">Utilized:</span> PHP, Laravel, Vuejs.
@@ -81,10 +83,11 @@ const Page = () => {
                         </h4>
                       </div>
                       <p className="text-sm sm:text-sm mb-3">
-                        The point of sale (POS) or point of purchase (POP) is the time and place at
-                        which a retail transaction is completed. At the point of sale, the merchant
-                        calculates the amount owed by the customer, indicates that amount, may
-                        prepare an invoice for the customer
+                        Programming based community which focuses on several aspects of computer
+                        science and engineering such as programming, data structure and algorithm,
+                        problem-solving etc. Beside all these, it provides web design, web
+                        development and application development courses to build up creative and
+                        productive programmers and developers.
                       </p>
                       <p>
                         <span className="font-bold">Utilized:</span> PHP, Laravel, Nextjs.

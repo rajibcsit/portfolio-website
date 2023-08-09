@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaBars, FaXmark } from "react-icons/fa6";
 import Image from "next/image";
+import headerLogo from "/public/logo-r.png";
 
 const Page = () => {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -52,7 +53,7 @@ const Page = () => {
         <div className="wrapper">
           <div className="logo">
             <Link href="/">
-              <Image src={"/logo.svg"} width={160} height={160} alt="headerLogo" />
+              <Image src={headerLogo} width={100} height={100} alt="headerLogo" />
             </Link>
           </div>
           <nav className={menuClass}>
