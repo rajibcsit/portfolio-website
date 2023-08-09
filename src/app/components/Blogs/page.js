@@ -10,8 +10,8 @@ const Page = () => {
           <p>Recent Posts</p>
           <h3 className="title">From The Blog</h3>
           <div className="desc">
-            There are many variations of passages of Lorem Ipsum available but
-            the majority have suffered alteration in some form.
+            There are many variations of passages of Lorem Ipsum available but the majority have
+            suffered alteration in some form.
           </div>
         </div>
         <div className="blogPosts">
@@ -20,7 +20,9 @@ const Page = () => {
           <Card type={"post"} />
         </div>
         <div className="action flex w-full justify-center">
-          <Link href="/blogs#"><button className="btn primaryBtn">Read More</button></Link>
+          <Link href="/blogs">
+            <button className="btn primaryBtn">Read More</button>
+          </Link>
         </div>
       </div>
     </>
